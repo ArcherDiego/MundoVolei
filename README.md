@@ -7,7 +7,7 @@
   - Criar um site onde possa testar os conhecimentos que estou desenvolvendo enquanto aprendo HTML, CSS e JS.
   
 ### 🏐 Por qual motivo esse tema foi escolhido?
-  - Um dos grandes motivos seria meu interrese pelo vôlei, e também uma certa vontade em criar um site de especificamente de vôlei.
+  - O motivo seria meu interrese pelo vôlei, e também uma certa vontade em criar um site decente de vôlei.
 
 ### 👨‍🏫 Planejamento
   - [x] Utilização do HTML
