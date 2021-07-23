@@ -14,15 +14,24 @@ h1{
 }
 h2{
     font-size: 36px;
-    text-align: center;
-    text-decoration-line: underline;
 }
 .grid-h2{
     margin-top: 100px;
+    text-align: center;
 }
 h3{
     font-size: 28px;
     text-align: center;
+}
+.grid-h3{
+    margin: 0px 75px 1px 75px;
+    padding: 30px 50px 30px 50px;
+    font-size: 36px;
+    color: #FFFFFF;
+    background-color: #2e502d;
+    box-shadow: 0px 0px 10px 1px #000000;
+    border: 1px #4C844A solid;
+    border-radius: 5px;
 }
 h4{
     font-size: 24px;
@@ -62,9 +71,12 @@ h5{
     justify-content: space-evenly;
     align-items: center;
     margin: 0px 75px 0px 75px;
+    padding: 30px 50px 30px 50px;
     background-color: #C7E2C6;
     border-radius: 5px;
     height: 425px;
+    border: 1px #4C844A solid;
+    box-shadow: 0px 0px 10px 1px #000000;
 }
 #img-principal{
     width: auto;
@@ -86,10 +98,12 @@ h5{
     border: 1px #4C844A solid;
 }
 .img-selecao{
-    height: 300px;
-    width: 400px;
+    height: 325px;
+    width: 450px;
     border-radius: 5px;
     border: 1px #4C844A solid;
+    padding: 30px;
+    background-color: #FFFFFF;
 }
 .escalacao{
     display: flex;
@@ -99,13 +113,20 @@ h5{
     font-family: sans-serif;
     background-color: #C7E2C6;
     border: 1px #4C844A solid;
-    margin-left: 100px;
-    margin-right: 100px;
+    box-shadow: 0px 0px 10px 1px #000000;
+    margin: 0px 75px 50px 75px;
+    padding: 30px 50px 30px 50px;
     border-radius: 5px;
 }
 ul{
-    margin: 20px;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
+}
+.team-list{
+    background-image: url(imagens/quadradevolei.png);
+    height: auto;
+    width: 400px;
+    color: #FFFFFF;
 }
 .link{
     text-decoration-line: unset;
@@ -120,9 +141,11 @@ ol{
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin: 50px 75px 50px 75px;
-    padding: 0 50px 30px 50px;
+    margin: 0px 75px 0px 75px;
+    padding: 30px 50px 30px 50px;
     background-color: #C7E2C6;
+    border: 1px #4C844A solid;
+    box-shadow: 0px 0px 10px 1px #000000;
     border-radius: 5px;
 }
 .legenda{
@@ -132,13 +155,14 @@ ol{
     background-color: #C7E2C6;
     border-radius: 5px;
     border: 5px #4C844A solid;
+    box-shadow: 0px 0px 10px 1px #000000;
 }
 .noticia{
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin: 75px 75px 50px 75px;
-    padding: 0 50px 30px 50px;   
+    margin: 0px 75px 0px 75px;
+    padding: 30px 50px 30px 50px;  
     border-radius: 15px;
 }
 .noticia-1{
@@ -147,6 +171,9 @@ ol{
     margin: 25px 0 25px 0;
     text-align: justify;
     background-color: #C7E2C6;
+    border-radius: 5px;
+    border: 1px #4C844A solid;
+    box-shadow: 0px 0px 10px 1px #000000;
 }
 .grid-1{
     grid-column: 1/2;
@@ -174,7 +201,8 @@ ol{
     margin: 25px 0 25px 12.5%;
     width: 75%;
     border-radius: 5px;
-    border: 1px #000000 solid;
+    border: 1px #4C844A solid;
+    box-shadow: 0px 0px 10px 1px #000000;
 }
 #fale-conosco{
     position: fixed;
@@ -224,6 +252,8 @@ footer{
 }
 table{
     width: 300px;
+    border-radius: 10px;
+    border-color: #2e502d;
 }
 .td-1{
     background-color: gold;
