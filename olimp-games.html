@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/volleyball.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Mundo Vôlei</title>
 </head>
 <body>
     <header class="barra-menu">
-        <a class="menu" href="x">MENU</a>
+        <i class="fas fa-bars menu"></i>
         <a class="link" href="home.html"><h1>Mundo Vôlei</h1></a>
         <input class="pesquisa" type="text" placeholder="BUSCAR">
     </header>
@@ -21,117 +22,170 @@
             <h3>Fase de Grupos</h3>
             <a class="link" href="">XXX</a>
         </div>
-        <div class="table">
-            <h3>Tabela do Grupo A</h3>
-            <table border="1">
+        <div class="table-group">
+            <h3 class="grid-4">Tabela do Grupo A</h3>
+            <table class="grid-5" border="3">
                 <tr>
-                    <td><strong>Times</strong></td>
-                    <td><strong>Pontos</strong></td>
-                    <td><strong>Jogos</strong></td>
-                    <td><strong>Vitorias</strong></td>
-                    <td><strong>Derrotas</strong></td>
+                    <td class="td-tabela"><strong>Times</strong></td>
+                    <td class="td-tabela"><strong>Pontos</strong></td>
+                    <td class="td-tabela"><strong>Jogos</strong></td>
+                    <td class="td-tabela"><strong>Vitorias</strong></td>
+                    <td class="td-tabela"><strong>Derrotas</strong></td>
                 </tr>
                 <tr>
-                    <td>Canadá</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
+                    <td class="td-tabela">Japão</td>
+                    <td class="td-tabela">3</td>
+                    <td class="td-tabela">1</td>
+                    <td class="td-tabela">1</td>
+                    <td class="td-tabela">0</td>
                 </tr>
                 <tr>
-                    <td>Irã</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
+                    <td class="td-tabela">Irã</td>
+                    <td class="td-tabela">2</td>
+                    <td class="td-tabela">1</td>
+                    <td class="td-tabela">1</td>
+                    <td class="td-tabela">0</td>
                 </tr>
                 <tr>
-                    <td>Italía</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
+                    <td class="td-tabela">Italía</td>
+                    <td class="td-tabela">2</td>
+                    <td class="td-tabela">1</td>
+                    <td class="td-tabela">1</td>
+                    <td class="td-tabela">0</td>
                 </tr>
                 <tr>
-                    <td>Polônia</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
+                    <td class="td-tabela">Canadá</td>
+                    <td class="td-tabela">1</td>
+                    <td class="td-tabela">1</td>
+                    <td class="td-tabela">0</td>
+                    <td class="td-tabela">1</td>
                 </tr>
                 <tr>
-                    <td>Japão</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
+                    <td class="td-tabela">Polônia</td>
+                    <td class="td-tabela">1</td>
+                    <td class="td-tabela">1</td>
+                    <td class="td-tabela">0</td>
+                    <td class="td-tabela">1</td>
                 </tr>
                 <tr>
-                    <td>Venezuela</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
+                    <td class="td-tabela">Venezuela</td>
+                    <td class="td-tabela">0</td>
+                    <td class="td-tabela">1</td>
+                    <td class="td-tabela">0</td>
+                    <td class="td-tabela">1</td>
                 </tr>
             </table>
+            <ol class="grid-6">
+                <ul type="none" class="grid-t1"><strong>Rodada 1</strong>
+                    <li>Italía x Canadá</li>
+                    <li>Japão x Venezuela</li>
+                    <li>Polônia x Irã</li>
+                </ul>
+                <ul type="none" class="grid-t2"><strong>Rodada 2</strong>
+                    <li>Irã x Venezuela</li>
+                    <li>Polônia x Italía</li>
+                    <li>Japão x Canadá</li>                    
+                </ul>
+                <ul type="none" class="grid-t3"><strong>Rodada 3</strong>
+                    <li>Canadá x Irã</li>
+                    <li>Venezuela x Polônia</li>
+                    <li>Japão x Italía</li>
+                </ul>
+                <ul type="none" class="grid-t4"><strong>Rodada 4</strong>
+                    <li>Canadá x Venezuela</li>
+                    <li>Japão x Polônia</li>
+                    <li>Italía x Irã</li>
+                </ul>
+                <ul type="none" class="grid-t5"><strong>Rodada 5</strong>
+                    <li>Polônia x Canadá</li>
+                    <li>Italía x Venezuela</li>
+                    <li>Japão x Irã</li>
+                </ul>
+            </ol>
         </div>
-        <div class="table"> 
-            <h3>Tabela do Grupo B</h3>
-            <table border="1">
+        <div class="table-group">
+            <h3 class="grid-4">Tabela do Grupo B</h3>
+            <table class="grid-5" border="3">
                 <tr>
-                    <td><strong>Times</strong></td>
-                    <td><strong>Pontos</strong></td>
-                    <td><strong>Jogos</strong></td>
-                    <td><strong>Vitorias</strong></td>
-                    <td><strong>Derrotas</strong></td>
+                    <td class="td-tabela"><strong>Times</strong></td>
+                    <td class="td-tabela"><strong>Pontos</strong></td>
+                    <td class="td-tabela"><strong>Jogos</strong></td>
+                    <td class="td-tabela"><strong>Vitorias</strong></td>
+                    <td class="td-tabela"><strong>Derrotas</strong></td>
                 </tr>
                 <tr>
-                    <td>Argentina</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
+                    <td class="td-tabela">Brasil</td>
+                    <td class="td-tabela">3</td>
+                    <td class="td-tabela">1</td>
+                    <td class="td-tabela">1</td>
+                    <td class="td-tabela">0</td>
                 </tr>
                 <tr>
-                    <td>Brasil</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
+                    <td class="td-tabela">Estados Unidos</td>
+                    <td class="td-tabela">3</td>
+                    <td class="td-tabela">1</td>
+                    <td class="td-tabela">1</td>
+                    <td class="td-tabela">0</td>
                 </tr>
                 <tr>
-                    <td>Estados Unidos</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
+                    <td class="td-tabela">Russia</td>
+                    <td class="td-tabela">3</td>
+                    <td class="td-tabela">1</td>
+                    <td class="td-tabela">1</td>
+                    <td class="td-tabela">0</td>
                 </tr>
                 <tr>
-                    <td>França</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
+                    <td class="td-tabela">Argentina</td>
+                    <td class="td-tabela">0</td>
+                    <td class="td-tabela">1</td>
+                    <td class="td-tabela">0</td>
+                    <td class="td-tabela">1</td>
                 </tr>
                 <tr>
-                    <td>Russia</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
+                    <td class="td-tabela">França</td>
+                    <td class="td-tabela">0</td>
+                    <td class="td-tabela">1</td>
+                    <td class="td-tabela">0</td>
+                    <td class="td-tabela">1</td>
                 </tr>
                 <tr>
-                    <td>Tunísia</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
+                    <td class="td-tabela">Tunísia</td>
+                    <td class="td-tabela">0</td>
+                    <td class="td-tabela">1</td>
+                    <td class="td-tabela">0</td>
+                    <td class="td-tabela">1</td>
                 </tr>
             </table>
+            <ol class="grid-6">
+                <ul type="none" class="grid-t1"><strong>Rodada 1</strong>
+                    <li>Brasil x Tunísia</li>
+                    <li>Russia x Argentina</li>
+                    <li>Estados Unidos x França</li>
+                </ul>
+                <ul type="none" class="grid-t2"><strong>Rodada 2</strong>
+                    <li>Estados Unidos x Russia</li>
+                    <li>França x Tunísia</li>
+                    <li>Brasil x Argentina</li>                    
+                </ul>
+                <ul type="none" class="grid-t3"><strong>Rodada 3</strong>
+                    <li>Estados Unidos x Tunísia</li>
+                    <li>Argentina x França</li>
+                    <li>Brasil x Russia</li>
+                </ul>
+                <ul type="none" class="grid-t4"><strong>Rodada 4</strong>
+                    <li>Brasil x Estados Unidos</li>
+                    <li>Argentina x Tunísia</li>
+                    <li>Russia x França</li>
+                </ul>
+                <ul type="none" class="grid-t5"><strong>Rodada 5</strong>
+                    <li>Brasil x França</li>
+                    <li>Russia x Tunísia</li>
+                    <li>Estados Unidos x Argentina</li>
+                </ul>
+            </ol>
         </div>
     </main>
     <footer>
-        <br/><br/>
         <div class="footer">
             <table border="1">
                 <tr>
