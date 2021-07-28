@@ -1,18 +1,42 @@
-#troca{
+.swiper-wrapper{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    flex-direction: column;
+    width: 600px;
+    height: 300px;
 }
 .table-group{
     grid-template-columns: 50%;
     font-size: 18px;
     margin: 0px 75px 50px 75px;
     height: 400px;
+    width: 90%;
     background-color: #FFFFFF;
     border-radius: 5px;
     border: 3px #4C844A solid;
     box-shadow: 0px 0px 10px 1px #000000;
     display: grid;
+}
+.table-games{
+    font-size: 18px;
+    margin: 0px 75px 50px 75px;
+    height: 400px;
+    width: 90%;
+    background-color: rgb(185, 184, 184);
+    border-radius: 5px;
+    border: 3px #4C844A solid;
+    box-shadow: 0px 0px 10px 1px #000000;
+}
+.table-games td{
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.table-games h3{
+    font-size: 28px;
+    margin: 0;
+    padding: 10px;
 }
 .td-tabela{
     height: 30px;
