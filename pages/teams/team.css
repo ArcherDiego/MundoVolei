@@ -30,17 +30,61 @@
     border-radius: 5px;
 }
 .team-list{
-    background-image: url(../assets/imagens/quadradevolei.png);
+    background-image: url(../../assets/imagens/quadradevolei.png);
     height: auto;
     width: 400px;
     color: #000000;
 }
 .legenda{
-    margin: 25px 100px 25px 60%;
-    padding: 0 50px 0 50px;
+    position: fixed;
+    bottom: 10%;
+    right: -21.5%;
+    padding: 0;
     width: auto;
     background-color: #C7E2C6;
     border-radius: 5px;
     border: 5px #4C844A solid;
+    transition: .2s;
+    display: grid;
+}
+.legenda:hover{
+    position: fixed;
+    bottom: 10%;
+    right: -1%;
+    padding: 0;
+    width: auto;
+    transition: .2s;
+    border: 5px #4C844A solid;
     box-shadow: 0px 0px 10px 1px #000000;
+}
+.seta-esquerda:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 0; 
+    height: 0; 
+  
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent; 
+    border-right: 20px solid #000000; 
+}
+.grid-legen{
+    grid-row: 1/ span 2;
+    grid-column: 1/2;
+    background-color: #4C844A;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+}
+.grid-legen2{
+    grid-row: 1/2;
+    grid-column: 2/2;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+.grid-legen3{
+    grid-row: 2/2;
+    grid-column: 2/2;
 }
