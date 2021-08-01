@@ -1,30 +1,30 @@
 #home{
     display: grid;
-    grid-gap: 35px;
-    margin: 0px 75px 50px 75px;
-    padding: 35px;
+    grid-gap: 2.187rem;
+    margin: 0 4.687rem 3.125rem 4.687rem;
+    padding: 2.187rem;
     background-color: #C7E2C6;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px 1px #000000;
+    border-radius: 0.312rem;
+    box-shadow: 0 0 0.63rem 0.063rem #000000;
 }
 .nav-menu{
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 0px;
-    left: 30px;
+    top: 0;
+    left: 2.187rem;
     z-index: 1;
     opacity: 0;
 }
 .nav-menu:hover{
     background-color: rgb(185, 184, 184);
-    border: 2px #4C844A solid;
+    border: 0.13rem #4C844A solid;
     font-size: large;
-    box-shadow: 0px 0px 10px 1px #000000;
+    box-shadow: 0 0 0.63rem 0.063rem #000000;
     transition: .3s;
     position: fixed;
-    top: 70px;
-    left: 30px;
+    top: 3.375rem;
+    left: 2.187rem;
     z-index: 2;
     opacity: 1;
 }
@@ -83,8 +83,8 @@
 #tatics-img{
     width: 100%;
     height: 100%;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px 1px #000000;
+    border-radius: 0.312rem;
+    box-shadow: 0 0 0.63rem 0.063rem #000000;
 }
 #container{
     width: 100%;
@@ -98,13 +98,13 @@
     position: absolute;
     left: 5%;
     bottom: 10%;
-    font-size: 28px;
+    font-size: 1.75rem;
 }
 #fundamentos{
-    margin: 0px 75px 50px 75px;
-    padding: 30px 50px 30px 50px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px 1px #000000;
+    margin: 0 4.687rem 3.125rem 4.687rem;
+    padding: 1.875rem 3.125rem 1.875rem 3.125rem;
+    border-radius: 0.312rem;
+    box-shadow: 0 0 0.63rem 0.063rem #000000;
     background-color: #C7E2C6;
 }
 #fale-conosco{
@@ -116,10 +116,10 @@
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    height: 32px;
+    height: 2rem;
     background-color: #C7E2C6;
-    border: 2px #2e502d solid;
-    border-radius: 5px 5px 0 0; 
+    border: 0.13rem #4C844A solid;
+    border-radius: 0.312rem 0.312rem 0 0; 
     transition: .2s;
 }
 #fale-conosco:hover{
@@ -130,17 +130,17 @@
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    height: 200px;
+    height: 12.5rem;
     background-color: #C7E2C6;
-    border: 2px #2e502d solid;
-    border-radius: 5px 5px 0 0;
+    border: 0.13rem #4C844A solid;
+    border-radius: 0.312rem 0.312rem 0 0; 
     color: rgb(255, 255, 255);
     transition: .3s;
 }
 .fale{
     background-color: #52A150;
     margin: 0;
-    padding: 10px;
-    font-size: 20px;
+    padding: 0.625rem;
+    font-size: 1.25rem;
     color: rgb(255, 255, 255);
 }
