@@ -32,11 +32,17 @@
     padding: 10px;
     margin: 10px;
     border-radius: 5px;
+    width: 10%;
+    border: 3px #4C844A solid;
 }
 .table-games h3{
     font-size: 28px;
     margin: 0;
     padding: 10px;
+}
+.table-games tr{
+    display: flex;
+    justify-content: space-evenly;
 }
 .td-tabela{
     height: 30px;
