@@ -11,23 +11,25 @@ h1{
     color: white;
     position: relative;
     text-align: center;
+    font-size: 3.75vw;
+    margin: .35em;
 }
 h2{
-    font-size: 2.25rem;
+    font-size: 3vw;
 }
 .grid-h2{
-    margin-top: 6.25rem;
+    margin-top: 3.5em;
     text-align: center;
 }
 h3{
-    font-size: 1.75rem;
+    font-size: 2.5vw;
     text-align: center;
 }
 h4{
-    font-size: 1.5rem;
+    font-size: 2vw;
 }
 h5{
-    font-size: 1.125rem;
+    font-size: 1.5vw;
     text-align: center;
 }
 .barra-menu{
@@ -35,28 +37,28 @@ h5{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 0 0.63rem 0.063rem #000000;
+    box-shadow: 0 0 0.5em 0.05em #000000;
     position: fixed;
     width: 100%;
-    height: 4.375rem;
+    height: auto;
     z-index: 2;
 }
 .menu{
-    margin: 0 2.187rem 0 2.187rem;
-    width: 7.182rem;
+    margin: 0 2em 0 2em;
+    width: 5%;
     color: #FFFFFF;
 }
 .pesquisa{
-    margin: 0 2.187rem 0 2.187rem;
+    margin: 0 2em 0 2em;
     height: 1.25rem;
-    width: 7.182rem;
-    border-radius: 0.312rem;
-    border: 0.063rem #C7E2C6 solid;
+    width: 5%;
+    border-radius: 0.4em;
+    border: 0.05em #C7E2C6 solid;
     background-color: #4C844A;
 }
 ul{
-    margin: 0.63rem;
-    padding: 0.63rem;
+    margin: 0.5em;
+    padding: 0.5em;
 }
 .link{
     text-decoration-line: unset;
@@ -64,48 +66,49 @@ ul{
     color:rgb(0, 0, 0);
 }
 ol{
-    margin: 1.25rem;
+    margin: 1.25em;
     padding: 0;
 }
 table{
-    margin: 0.63rem;
-    padding: 0.63rem;
+    margin: 0.3em;
+    padding: 0.3em;
     background-color: #C7E2C6;
-    border-radius: 0.63rem;
+    border-radius: 0.5em;
     border-color: #2e502d;
     border-spacing: 0;
 }
 tbody{
     background-color: #FFFFFF;
-    border-radius: 0.312rem;
+    border-radius: 0.03em;
 }
 footer{
     background-color: #52A150;
-    box-shadow: 0 0 0.63rem 0.063rem #000000;
+    box-shadow: 0 0 0.5em 0.05em #000000;
 }
 .footer{
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 0;
-    padding-top: 0.63rem;
+    padding-top: 0.5em;
+}
+.footer p{
+    margin: 0;
+    padding: 0.05em;
 }
 .td-1{
     background-color: gold;
-    width: 2.187rem;
-    text-align: center;
-    height: 1.25rem;
+    display: flex;
+    justify-content: center;
 }
 .td-2{
     background-color: silver;
-    width: 2.187rem;
-    text-align: center;
-    height: 1.25rem;
+    display: flex;
+    justify-content: center;
 }
 .td-3{
     background-color: brown;
-    width: 2.187rem;
-    text-align: center;
-    height: 1.25rem;
+    display: flex;
+    justify-content: center;
 }
 .fivb{
     text-align: left;
