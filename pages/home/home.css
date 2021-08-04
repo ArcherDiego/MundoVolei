@@ -1,7 +1,7 @@
 #home{
     display: grid;
-    grid-gap: 1.25em;
-    margin: 0 4.5em 3em 4.5em;
+    grid-gap: 1.5em;
+    margin: 0 2em 1.5em 2em;
     padding: 2em;
     background-color: #C7E2C6;
     border-radius: 0.3em;
@@ -101,14 +101,14 @@
     font-size: 2vw;
 }
 #fundamentos{
-    margin: 0 4.5em 3em 4.5em;
-    padding: 1.5em 3em 1.5em 3em;
+    margin: 0 2em 1.5em 2em;
+    padding: 1em 1.5em 1em 1.5em;
     border-radius: 0.3em;
     box-shadow: 0 0 0.5em 0.05em #000000;
     background-color: #C7E2C6;
 }
 p{
-    font-size: 1.5vw;
+    font-size: 2vw;
     text-align: justify;
 }
 #fale-conosco{
@@ -134,7 +134,7 @@ p{
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    height: 12.5em;
+    height: 12em;
     background-color: #C7E2C6;
     border: 0.2em #4C844A solid;
     border-radius: 0.3em 0.3em 0 0; 
@@ -144,7 +144,7 @@ p{
 .fale{
     background-color: #52A150;
     margin: 0;
-    padding: 1em;
+    padding: .5em;
     font-size: 2vw;
     color: rgb(255, 255, 255);
 }
