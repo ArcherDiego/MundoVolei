@@ -15,18 +15,18 @@ h1{
     margin: .35em;
 }
 h2{
-    font-size: 3vw;
+    font-size: 3.5vw;
 }
 .grid-h2{
     margin-top: 2.83em;
     text-align: center;
 }
 h3{
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     text-align: center;
 }
 h4{
-    font-size: 2vw;
+    font-size: 3vw;
 }
 h5{
     font-size: 1.5vw;
@@ -45,13 +45,14 @@ h5{
 }
 .menu{
     margin: 0 2em 0 2em;
-    width: 5%;
+    width: 15%;
     color: #FFFFFF;
 }
 .pesquisa{
     margin: 0 2em 0 2em;
-    height: 1.25rem;
-    width: 5%;
+    
+    height: 1.5em;
+    width: 15%;
     border-radius: 0.4em;
     border: 0.05em #C7E2C6 solid;
     background-color: #4C844A;
@@ -97,18 +98,18 @@ footer{
 }
 .td-1{
     background-color: gold;
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    width: 1.25em;
 }
 .td-2{
     background-color: silver;
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    width: 1.25em;
 }
 .td-3{
     background-color: brown;
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    width: 1.25em;
 }
 .fivb{
     text-align: left;

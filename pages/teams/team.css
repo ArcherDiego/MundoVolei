@@ -25,8 +25,8 @@
     background-color: #C7E2C6;
     border: 1px #4C844A solid;
     box-shadow: 0px 0px 10px 1px #000000;
-    margin: 0px 75px 50px 75px;
-    padding: 30px 50px 30px 50px;
+    margin: 0 2em 1.5em 2em;
+    padding: 1em 1.5em 1em 1.5em;
     border-radius: 5px;
 }
 .team-list{

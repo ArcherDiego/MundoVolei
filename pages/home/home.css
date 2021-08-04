@@ -2,7 +2,7 @@
     display: grid;
     grid-gap: 1.5em;
     margin: 0 2em 1.5em 2em;
-    padding: 2em;
+    padding: 1.5em;
     background-color: #C7E2C6;
     border-radius: 0.3em;
     box-shadow: 0 0 0.5em 0.05em #000000;
@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 0;
+    top: 1em;
     left: 2em;
     z-index: 1;
     opacity: 0;
@@ -98,7 +98,7 @@
     position: absolute;
     left: 5%;
     bottom: 10%;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 #fundamentos{
     margin: 0 2em 1.5em 2em;
@@ -120,31 +120,27 @@ p{
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    height: 2em;
+    height: 2.5em;
+    width: auto;
     background-color: #C7E2C6;
     border: 0.2em #4C844A solid;
     border-radius: 0.3em 0.3em 0 0; 
     transition: .2s;
 }
 #fale-conosco:hover{
-    position: fixed;
-    bottom: 0%;
-    right: 3%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
-    height: 12em;
-    background-color: #C7E2C6;
-    border: 0.2em #4C844A solid;
-    border-radius: 0.3em 0.3em 0 0; 
-    color: rgb(255, 255, 255);
+    height: 15em;
+    width: auto;
     transition: .3s;
 }
+#fale-conosco p{
+    font-size: 1.75vw;
+}
 .fale{
-    background-color: #52A150;
     margin: 0;
     padding: .5em;
-    font-size: 2vw;
+    width: auto;
     color: rgb(255, 255, 255);
+    font-size: 2vw;
+    background-color: #52A150;
+
 }
