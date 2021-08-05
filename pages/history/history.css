@@ -1,14 +1,33 @@
 .history{
     text-align: center;
     display: flex;
+    align-items: center;
     flex-direction: column;
     margin: 0 2em 1.5em 2em;
     padding: 1em 1.5em 1em 1.5em;
     background-color: #C7E2C6;
-    border: 1px #4C844A solid;
-    box-shadow: 0px 0px 10px 1px #000000;
-    border-radius: 5px;
+    border: 0.05em #4C844A solid;
+    box-shadow: 0 0 0.5em 0.05em #000000;
+    border-radius: 0.83rem;
 }
 .history p{
     text-align: justify;
+}
+.history-begin{
+    display: flex;
+    align-items: center;
+    margin: 1em;
+}
+.img-history-main{
+    width: 25em;
+    height: 25em;
+    border: 0.05em #4C844A solid;
+    box-shadow: 0 0 0.5em 0.05em #000000;
+}
+.img-history{
+    margin: 1em;
+    width: 15em;
+    height: 15em;
+    box-shadow: 0 0 0.5em 0.05em #000000;
+    border-radius: 0.83rem;
 }
