@@ -19,15 +19,15 @@
     margin: 1em;
 }
 .img-history-main{
-    width: 25em;
-    height: 25em;
+    width: 50%;
+    height: 50%;
     border: 0.05em #4C844A solid;
     box-shadow: 0 0 0.5em 0.05em #000000;
 }
 .img-history{
     margin: 1em;
-    width: 15em;
-    height: 15em;
+    width: 25%;
+    height: 25%;
     box-shadow: 0 0 0.5em 0.05em #000000;
     border-radius: 0.83rem;
 }

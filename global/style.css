@@ -11,14 +11,14 @@ h1{
     color: white;
     position: relative;
     text-align: center;
-    font-size: 3.75vw;
-    margin: .35em;
+    font-size: 3.5vw;
+    margin: .1em;
 }
 h2{
     font-size: 3.5vw;
 }
 .grid-h2{
-    margin-top: 2.83em;
+    margin-top: 2.43em;
     text-align: center;
 }
 h3{
@@ -26,7 +26,7 @@ h3{
     text-align: center;
 }
 h4{
-    font-size: 3vw;
+    font-size: 2.5vw;
 }
 h5{
     font-size: 1.5vw;
