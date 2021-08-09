@@ -50,12 +50,8 @@ h5{
 }
 .pesquisa{
     margin: 0 2em 0 2em;
-    
     height: 1.5em;
     width: 15%;
-    border-radius: 0.4em;
-    border: 0.05em #C7E2C6 solid;
-    background-color: #4C844A;
 }
 ul{
     margin: 0.5em;

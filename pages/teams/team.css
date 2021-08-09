@@ -38,9 +38,10 @@
 .legenda{
     position: fixed;
     bottom: 10%;
-    right: -21.5%;
+    right: -20.8%;
     padding: 0;
     width: auto;
+    height: auto;
     background-color: #C7E2C6;
     border-radius: 0.3em;
     border: 0.1em #4C844A solid;
@@ -62,6 +63,7 @@
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
+    margin-left: 5px;
     width: 0; 
     height: 0; 
   
@@ -80,8 +82,8 @@
 .grid-legen2{
     grid-row: 1/2;
     grid-column: 2/2;
-    margin: 0;
-    padding: 5px;
+    margin: 0 5px 5px 5px;
+    padding: 0;
     text-align: center;
 }
 .grid-legen3{
