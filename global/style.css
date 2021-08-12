@@ -43,15 +43,46 @@ h5{
     height: auto;
     z-index: 2;
 }
-.menu{
-    margin: 0 2em 0 2em;
-    width: 15%;
+.dropbtn{
+    background-color: #52A150;
+    color: white;
+    font-size: 2vw;
+    width: auto;
+    border: none;
+}  
+.dropdown{
+    position: relative;
+    display: inline-block;
+    left: 2em;
+}  
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #C7E2C6;
+    font-weight: bold;
+    width: 25em;
+    margin-left: -1em;
+    border: 0.2em #4C844A solid;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+} 
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: #4C844A;
     color: #FFFFFF;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
 }
 .pesquisa{
     margin: 0 2em 0 2em;
     height: 1.5em;
-    width: 15%;
+    right: 2em;
 }
 ul{
     margin: 0.5em;
