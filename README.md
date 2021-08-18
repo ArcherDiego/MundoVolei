@@ -12,9 +12,9 @@
 ### 👨‍🏫 Planejamento
   - [x] Utilização do HTML
   - [x] Utilização das CSS
-  - [ ] Utilização do JS
+  - [x] Utilização do JS
   - [x] Criar multi páginas
-  - [ ] Configurar o índice
+  - [x] Configurar o índice
 
 ### 🧠 Tecnologias Usadas
   - HTML 5
